@@ -1,0 +1,194 @@
+@media(prefers-color-scheme) {
+    :root {
+        --primary-text-color: #FFFFFF;
+        --primary-title-color: #FFFFFF;
+        --secondary-title-color: #313131;
+        --secondary-text-color: #313131;
+        --primary-bg: #313131;
+        --primary-nav-bg: #000000;
+
+    }
+}
+
+@media(max-width: 1199px) {
+
+    .section3_grid_card span {
+        width: 50px;
+        height: 50px;
+    }
+
+    .section3_grid_card_info_title {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .section3_grid_card_info_price {
+        font-size: 17px;
+    }
+
+
+
+    .section4_card_info_title {
+        height: 20px;
+    }
+
+
+
+    .section5_card_info_title {
+        height: 20px;
+    }
+
+
+
+    .section9_info_text {
+        width: 100%;
+    }
+
+
+}
+
+@media(max-width: 990px) {
+    .section3_grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+
+    .section_list {
+        flex-direction: column;
+        width: max-content;
+    }
+
+
+
+
+
+    .section8_card_info_title {
+        height: 40px;
+    }
+
+
+
+
+    .section9_info,
+    .section9_button {
+        position: static;
+    }
+
+
+    .section10_img {
+        margin-bottom: 30px;
+    }
+
+
+    .footer_text {
+        margin-top: 30px;
+    }
+
+    .footer_search {
+        margin-bottom: 30px;
+    }
+
+
+
+
+}
+
+
+@media(max-width: 767px) {
+    .section4_card_info_title {
+        height: 40px;
+    }
+
+
+    .section5_card_info_title {
+        height: 40px;
+    }
+
+    .section5_card_info_title {
+        height: 60px;
+    }
+}
+
+@media(max-width: 575px) {
+
+    .search_button {
+        font-size: 10px;
+    }
+
+    .section4_card_info_title {
+        height: 20px;
+    }
+
+
+
+    .section3_grid_card_info2 {
+        top: 10px;
+        left: 10px;
+    }
+
+    .section5_card_info_title {
+        height: 20px;
+    }
+
+
+    .section2_right_title {
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .section3_grid_card span {
+        width: 40px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .section3_grid_card_info_title {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+
+    .section3_grid_card_info_price {
+        font-size: 12px;
+    }
+
+    .section_link {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+
+
+    .section9_info_title {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .section9_info_text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
+    .section10_info_buttons {
+        flex-direction: column;
+    }
+
+    .section10_info_buttons_link {
+        margin-bottom: 20px;
+    }
+
+
+    .section11_right_title {
+        font-size: 40px;
+    }
+
+    .section11_right_text {
+        font-size: 18px;
+    }
+
+
+
+}

@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'FontAwesome Brands';
+    src: url("../icon/webfonts/fa-brands-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome Duotone';
+    src: url("../icon/webfonts/fa-duotone-900.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-light-300.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-regular-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-solid-900.ttf");
+    font-weight: 900;
+}
+
+.fas {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+
+.far {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.fal {
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+
+.fad {
+    font-family: 'FontAwesome Duotone';
+    font-weight: 900;
+}
+
+.fab {
+    font-family: 'FontAwesome Brands';
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../font/Noto_Sans/NotoSans-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../font/Noto_Sans/NotoSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../font/Noto_Sans/NotoSans-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("../font/Noto_Sans/NotoSans-SemiBold.ttf");
+    font-weight: 600;
+}
+
+.icon-bars::before{
+    content: "\f0c9";
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.icon-shopping-cart::before{
+    content: "\f07a";
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.icon-user::before{
+    content: "\f007";
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.icon-phone-alt::before{
+    content: "\f879";
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.icon-search::before{
+    content: "\f002";
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.icon-heart::before{
+    content: "\f004";
+    font-style: normal;
+    font-size: 20px;
+    color: var(--primary-text-color);
+    
+}
+
+.icon-angle-double-right::before{
+    content: "\f101";
+    font-style: normal;
+    font-size: 25px;
+    color: var(--primary-text-color);
+}
+
+.icon-angle-double-left::before{
+    content: "\f100";
+    font-style: normal;
+    font-size: 25px;
+    color: var(--primary-text-color);
+}
